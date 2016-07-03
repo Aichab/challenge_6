@@ -1,3 +1,4 @@
+    <header>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,33 +14,31 @@
 </head>
 <body>
     <header>
-    	<div class="row">
-    	    <div class="col-lg-12">
-    	        <h1>Cookie clicker</h1>
-    	    </div> 
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Cookie clicker</h1>
+            </div> 
         </div>
     </header>
 
     <div class="row">
-         <div class="col-lg-4">
-         	 <img src="images/cookie.png" onClick="test()" id="bouton">
-         	 <p>click<a id="click">0</a></p>
+         <div class="col-lg-6">
+             
+             <img src="images/cookie.png" onclick="clic()" id="bouton" />
+             
          </div>
-    	<div class="col-lg-4">
-         	
+        <div class="col-lg-6">
+            <p> score:</p>
+             <p id="score"> </p>
+             <button class="bouton" onclick="achat()" id="compteur">multiplicateur
+             </button>
          </div>
-         <div class="col-lg-4">
-         	
-         </div>
+         
     </div>
     
 
 
-
-    <footer class="col-lg-12  ">  
-	
-	</footer>
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
-<script type="text/javascript" src="script.js"></script>
 </html>
