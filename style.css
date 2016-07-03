@@ -1,0 +1,36 @@
+/*  couleur 1: #FFE7B1; couleur2: #5977B2; couleur 3: #B1CCFF; couleur4 : #B29C6A; */
+
+
+h1{
+	font-size:45px;
+	margin-left: 600px;
+
+}
+
+header{
+	border-bottom: 1px solid gray;	
+}
+
+.cookie_img{
+	width: 80%;
+	height: 80%;
+	
+}
+
+footer{
+	border-top: 1px solid gray;
+	margin-top: 80px;
+	
+}
+img{
+cursor: pointer;
+}
+img:active{
+	height: 300px;
+	width: 300px;
+	
+
+}
+button{
+	margin-top: 30px;
+}
