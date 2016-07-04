@@ -2,35 +2,36 @@
 
 
 h1{
-	font-size:45px;
+	font-size:50px;
 	margin-left: 600px;
+	color:coral;
 
 }
-
-header{
-	border-bottom: 1px solid gray;	
-}
-
-.cookie_img{
-	width: 80%;
-	height: 80%;
+body{
 	
 }
 
-footer{
-	border-top: 1px solid gray;
-	margin-top: 80px;
+button{
 	
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+    margin-right: 30px;
+    display: block;
+    margin-top: 30px;
 }
+
+
 img{
 cursor: pointer;
 }
+
 img:active{
 	height: 300px;
 	width: 300px;
 	
 
-}
-button{
-	margin-top: 30px;
 }
